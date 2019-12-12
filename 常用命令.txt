@@ -1,0 +1,48 @@
+git init 初始化一个本地仓库
+
+git clone url 克隆一个项目
+
+配置全局信息
+git config --global user.name "自己的用户名"
+git config --global user.email "github注册邮箱"
+
+查看git状态 
+
+git status
+
+工作区添加到暂存区
+git add "文件名"
+git add . 添加所有文件
+
+暂存区添加到本地仓库
+
+git commit -m "dsc"  
+
+dsc 指描述
+
+git commit -m "这是我第一次使用git提交文件"  
+
+指定远程仓库
+git remote add origin  https://github.com/vampiresun/bigdata-1.git
+
+把文件推送到远程仓库
+ 
+git push -u origin master
+
+把远程仓库的代码更新到本地仓库
+git pull origin master
+
+查看提交日志
+git log 
+
+git reflog
+
+还原代码
+
+git checkout 还原版本的日志信息
+
+重置
+git reset --hard
+查看分支
+git branch"�����ҵ��ı��ļ�"
+"�����ҵ��ı��ļ�"
